@@ -20,7 +20,7 @@ jobs:
           script: |
             echo "Starting deployment..."
 
-            cd /var/www/workflow-test
+            cd /var/www/public_html/workflow-test
             git pull origin main
 
             echo "Deployment completed!"
